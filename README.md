@@ -1,10 +1,10 @@
-# replay_PM
+# Process Mining Replay technique
 
-## Разбор популярных методов для Conformance Check представлен в файле Replay it:
+## The analysis of popular methods for checking conformance is presented in the [replay_it.ipynb](https://github.com/eskvortsova/replay_PM/blob/master/Replay%20it.ipynb) file:
 - Footprints Conformance check
 - Token-Based replay
 - Alignments check
 
-## Самописный метод сравнения эталонного процесса и логов представлен в Custom Replay:
-Основная идея метода - наложение двух DFG и наличие визуализации, в которой четко видно количество traces, в которых было пропущено какое-либо action. 
-Данный метод был разработан под нужды конкретного заказчика, не опирается на научные статьи и создан только из практических побуждений.
+## Practically derived technique for conformance checking presented [custom_replay.ipynb](https://github.com/eskvortsova/replay_PM/blob/master/Custom%20Replay.ipynb):
+The main idea behind this method is overlay of two DFGs and the presence of visualization, which clearly shows the number of traces in which several actions were missed.
+This method has been developed for the needs of a particular customer for practical reasons, it does not rely on scientific articles.
